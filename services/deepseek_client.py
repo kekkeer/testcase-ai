@@ -1,7 +1,10 @@
 # services/deepseek_client.py
 
+from dotenv import load_dotenv
 from openai import OpenAI
 import os
+
+load_dotenv()
 
 _client = None   # 👈 全局唯一
 
