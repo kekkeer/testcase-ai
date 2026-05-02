@@ -1,0 +1,7 @@
+__pycache__/
+*.xlsx
+*.spec
+build/
+dist/
+app.log
+.venv/
